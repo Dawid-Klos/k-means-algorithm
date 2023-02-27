@@ -7,13 +7,14 @@ import matplotlib.pyplot as plt
 ######################
 
 # import data from a csv file
-customers_df = pd.read_csv('mall_customers.csv')
+customers_df = pd.read_csv('data/mall_customers.csv')
 
 # drop redundant columns
 customers_df = customers_df.drop(columns=['CustomerID', 'Gender', 'Age'])
 
 # turn dataframe into a list
 data = customers_df.values.tolist()
+print(data)
 
 ########################
 ###    Algorithm     ###
