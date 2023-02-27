@@ -3,20 +3,6 @@ import k_means as km
 import matplotlib.pyplot as plt
 
 ######################
-###  Informations  ###
-######################
-#
-# !!! READ BEFORE RUNNING!!!
-#
-# To run the program simply execute the main file - main.py
-# While running the program check the console for information about performed operations.
-# When a new window with a graph appears to proceed you need to close it by clicking on the close button.
-# Keep closing the window until the end of the program.
-# In the meantime you will see information being printed in the console.
-# Once the best fit centroids are found, the program finish working and you can see the performance results in the console.
-#
-#
-######################
 ### Pre-processing ###
 ######################
 
